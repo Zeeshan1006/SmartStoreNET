@@ -306,6 +306,7 @@ namespace SmartStore.Web.Controllers
         {
 			// INFO: param 'tag' redunadant, because OutputCache does not include
 			// complex type params in cache key computing
+            // test only
 
 			if (!_blogSettings.Enabled)
 				return HttpNotFound();
